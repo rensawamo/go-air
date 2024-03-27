@@ -1,3 +1,13 @@
+## insatall
+```sh
+$ go install github.com/cosmtrek/air@latest
+```
+
+## PATH を通す
+```sh
+$ export PATH=$PATH:$(go env GOPATH)/bin
+```
+
 ## Golang Air 
 https://github.com/cosmtrek/air
 
